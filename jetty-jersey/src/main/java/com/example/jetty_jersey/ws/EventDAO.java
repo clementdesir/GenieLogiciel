@@ -6,4 +6,5 @@ public interface EventDAO {
 	public Date getStarting_date();
 	public Date getEnding_date();
 	public Date getTime();
+	public List<User> getClients();
 }
